@@ -9,6 +9,13 @@ img, embed, object, video {
   max-width: 100%;
 }
 
+body {
+  background-color: hsl(257, 40%, 49%);
+}
+
+
+
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -18,11 +25,84 @@ img, embed, object, video {
   color: hsl(228, 45%, 44%);
 }
 
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   body {
-    background-image: url("images/bg-mobile.svg");
+    background-image: url(../images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  .images {
+    padding: 10% 0 10%;
+
+  }
+  .logo {
+    width: 35%;
+    padding-bottom: 15%;
+  }
+
+  .markup {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .content {
+    text-align: center;
+  }
+
+
+  h1 {
+
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 7vw;
+  }
+
+  p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 1em;
+  }
+
+  button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    width: 60%;
+    height: 10vw;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 4px 6px -6px black;
+  }
+
+  .social-links {
+    padding-top: 10vw;
+    position: relative;
+  }
+
+  .fab {
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+  }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
