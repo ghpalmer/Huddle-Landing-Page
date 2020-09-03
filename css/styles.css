@@ -22,7 +22,7 @@ body {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: white;
 }
 
 
@@ -90,17 +90,24 @@ body {
 
   .social-links {
     padding-top: 10vw;
-    position: relative;
+    text-align: center;
   }
 
   .fab {
     color: white;
     border: 1px solid white;
     border-radius: 50%;
-    padding: 5px;
-    position: absolute;
-    left: 50%;
-    right: 50%;
+    padding: 7px;
+
+    }
+  .fa-facebook-f {
+    margin-right: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .fa-instagram {
+    margin-left: 2%;
   }
 
 }
