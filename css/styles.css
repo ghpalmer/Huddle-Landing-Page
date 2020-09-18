@@ -75,7 +75,6 @@ p {
     width: 40vw;
     padding-top: 10%;
     padding-bottom: 15%;
-
   }
 
   .markup {
@@ -84,6 +83,7 @@ p {
     margin-right: auto;
     width: 80vw;
   }
+
   .title {
     font-size: 7vw;
     text-align: center;
@@ -105,7 +105,8 @@ p {
     border-radius: 50%;
     padding: 7px;
 
-    }
+  }
+
   .fa-facebook-f {
     margin-right: 2%;
     padding-left: 10px;
@@ -115,36 +116,11 @@ p {
   .fa-instagram {
     margin-left: 2%;
   }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width:600px) {
-
-  .content {
-    width: 85vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-
-  .logo {
-    width: 40vw;
-    padding-top: 5%;
-    padding-bottom: 10%;
-
-  }
-
-  .markup {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80vw;
-
-  }
-  .title {
-    font-size: 6vw;
-    text-align: center;
-  }
 
   button {
     display: block;
@@ -162,6 +138,30 @@ p {
     box-shadow: 0 4px 6px -6px black;
   }
 
+  .content {
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .logo {
+    width: 40vw;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+
+  .markup {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+  }
+
+  .title {
+    font-size: 6vw;
+    text-align: center;
+  }
+
   .social-links {
     padding-top: 8vw;
     padding-bottom: 2vw;
@@ -173,8 +173,8 @@ p {
     border: 1px solid white;
     border-radius: 50%;
     padding: 7px;
+  }
 
-    }
   .fa-facebook-f {
     margin-right: 2%;
     padding-left: 10px;
@@ -188,10 +188,12 @@ p {
   .bttn-container {
     padding-top: 6vw;
   }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
   body {
     background-color: #674BAF;
     background-color: hsl(257, 40%, 49%);
@@ -199,13 +201,6 @@ p {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-  }
-
-  .content {
-    width: 90vw;
-    padding-top: 1vw;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   br {
@@ -225,6 +220,13 @@ p {
     border: none;
     box-shadow: 0 4px 6px -6px black;
     margin-left: 3vw;
+  }
+
+  .content {
+    width: 90vw;
+    padding-top: 1vw;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .logo {
@@ -286,6 +288,7 @@ p {
 
   /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
     .title {
       font-size: 1.8em;
     }
@@ -293,10 +296,16 @@ p {
     .description {
       font-size: .8em;
     }
-  }
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+  button {
+    font-size: 1.1em;
+  }
+
   .title {
     font-size: 2.2em;
   }
@@ -305,7 +314,4 @@ p {
     font-size: 1.2em;
   }
 
-  button {
-    font-size: 1.1em;
-  }
 }
